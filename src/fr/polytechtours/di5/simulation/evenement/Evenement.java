@@ -8,9 +8,8 @@ public abstract class Evenement {
 	
 	public int priorite;
 	
-	public Evenement(double start, int priorite){
+	public Evenement(double start){
 		this.start = start;
-		this.priorite = priorite;
 	}
 	
 	public abstract void execute();
