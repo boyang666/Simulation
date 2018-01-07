@@ -33,7 +33,7 @@ public class ReorgaCourriel extends Evenement{
 			}
 		}
 		Main.DS = DDS;
-		System.out.println("Reorganisation Courriel at "+start);
+		//System.out.println("Reorganisation Courriel at "+start);
 	}
 
 }

@@ -33,7 +33,7 @@ public class FinCourriel extends Evenement{
 		}
 		Main.echeancier.offer(new ReorgaCourriel(DDS));
 		Main.DS = DDS;
-		System.out.println("Fin Courriel " + courriel.id + " at " + start);
+		//System.out.println("Fin Courriel " + courriel.id + " at " + start);
 	}
 
 	

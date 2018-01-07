@@ -38,7 +38,7 @@ public class ArrAppel extends Evenement{
 				Main.echeancier.offer(new AccAppel(DDS));
 			}
 		}
-		System.out.println("Arrivee Appel " + appel.id + " at "+start);
+		//System.out.println("Arrivee Appel " + appel.id + " at "+start);
 		
 		Main.DS = this.DDS;
 		

@@ -31,8 +31,7 @@ public class AccAppel extends Evenement{
 				break;
 			}
 		}
-		System.out.println("Acces Appel " + id + " at "+start);
-		System.out.println("Nombre poste present: "+Main.NombreAppelPresent);
+		//System.out.println("Acces Appel " + id + " at "+start);
 		
 		Main.DS = this.start;
 		

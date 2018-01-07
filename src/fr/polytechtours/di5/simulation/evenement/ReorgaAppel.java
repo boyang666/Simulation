@@ -33,6 +33,6 @@ public class ReorgaAppel extends Evenement{
 			}
 		}
 		Main.DS = DDS;
-		System.out.println("Reorganisation Appel at "+start);
+		//System.out.println("Reorganisation Appel at "+start);
 	}
 }

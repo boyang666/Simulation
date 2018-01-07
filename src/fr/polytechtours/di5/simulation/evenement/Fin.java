@@ -17,9 +17,9 @@ public class Fin extends Evenement{
 		MAJAires.MAJTpsAttenteCourriel(Main.DS, DDS, Main.FileCourriel.size());
 		MAJAires.MAJNombrePosteTelOccupe(Main.DS, DDS, Main.NombreAppelPresent);
 		MAJAires.MAJNombreLibre(Main.DS, DDS, Main.NombreLibre);
-		Main.finish = false;
+		Main.finish = true;
 		Main.DS = DDS;
-		System.out.println("Finish at "+start);
+		//System.out.println("Finish at "+start);
 	}
 
 	
